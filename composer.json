@@ -16,6 +16,13 @@
         "psr-4": {
             "Nirjhor\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nirjhor\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 
 }
