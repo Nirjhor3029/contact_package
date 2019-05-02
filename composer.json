@@ -1,0 +1,21 @@
+{
+    "name": "nirjhor/contact",
+    "description": "This will send email and save contact query in database.Learning how to develop a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nirjhor",
+            "email": "sazzad3029@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Nirjhor\\Contact\\": "src/"
+        }
+    }
+
+}
